@@ -9,3 +9,26 @@ body {
     background: linear-gradient(to right, #8259ea, #0ec2bf, #ffffff, #9b59b6);
     min-height: 100vh;
 }
+
+
+.quiz {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   margin-block:8em;
+   height: 80vh;
+}
+
+.block {
+    padding-block: 6em;
+    padding-inline: 8em;
+    border: 1px solid white;
+  
+
+}
+.row {
+    display: flex;
+    flex-direction: row;
+
+}
