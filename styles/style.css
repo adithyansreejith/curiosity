@@ -29,6 +29,8 @@ body {
     margin: 20px;
     border-radius: 15px;
     font-family: 'Ariel', sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* values in the box-shadow property are, the horizontal offset, vertical offset, blur radius, and color of the shadow */
+
 }
 
 .row {
