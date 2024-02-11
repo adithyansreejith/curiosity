@@ -6,8 +6,31 @@
 
 
 body {
-    background: linear-gradient(to right, #333399, #FF00Cc);
-    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    background: hsl(242, 53%, 34%);
+    background-image: linear-gradient(95deg, hsl(242, 53%, 34%) 0%, hsl(195, 51%, 54%) 40%, hsl(276, 21%, 55%) 94%, hsl(262, 20%, 49%) 100%);
+    background-size: 300%;
+    animation: bg-animation 9s infinite alternate;
+}
+
+/* There is an idea if its cool try to implement it, to change the colour of the text inside article tag in each cycle , but the colours should be opposite of the body animation */
+@keyframes bg-animation {
+    0% {
+        background-position: left;
+    }
+
+    100% {
+        background-position: right;
+    }
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 1.5rem;
 }
 
 
